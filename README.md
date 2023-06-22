@@ -4,13 +4,3 @@ Challenge of Frontend Mentor
 
 My resolution for this challenge i hope you enjoy S2
 
-
-Desktop - Design
-
-
- <img src="desktop-design.jpg" width="50" /> 
-
-Mobile - Design
-
- <img src="mobile-design.jpg" width="50" /> 
-
