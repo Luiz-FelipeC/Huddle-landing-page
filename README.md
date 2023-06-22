@@ -8,9 +8,9 @@ My resolution for this challenge i hope you enjoy S2
 Desktop - Design
 
 
- <img src="desktop-design.jpg" width="200" /> 
+ <img src="desktop-design.jpg" width="50" /> 
 
 Mobile - Design
 
- <img src="mesktop-design.jpg" width="200" /> 
+ <img src="mobile-design.jpg" width="50" /> 
 
