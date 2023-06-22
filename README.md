@@ -9,7 +9,7 @@ Desktop - Design
 
 <p float="left">
 
- <img src="Desktop-design.jpg" width="200" /> 
+ <img src="desktop-design.jpg" width="200" /> 
 
 </p>
 
@@ -17,6 +17,6 @@ Mobile - Design
 
 <p float="left">
 
- <img src="Desktop-design.jpg" width="200" /> 
+ <img src="mesktop-design.jpg" width="200" /> 
 
 </p>
