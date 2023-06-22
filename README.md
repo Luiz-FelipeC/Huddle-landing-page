@@ -7,16 +7,10 @@ My resolution for this challenge i hope you enjoy S2
 
 Desktop - Design
 
-<p float="left">
 
  <img src="desktop-design.jpg" width="200" /> 
 
-</p>
-
 Mobile - Design
-
-<p float="left">
 
  <img src="mesktop-design.jpg" width="200" /> 
 
-</p>
