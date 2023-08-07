@@ -1,44 +1,67 @@
 html {
-    height: 100%;
+    font-size: 62.5%;
     scroll-behavior: smooth;
 }
 
 body {
-    min-height: 100vh;
-    background: url(../img/bg-desktop.svg) center center no-repeat;
-    background-size: cover;
+    background: url(../img/bg-mobile.svg) no-repeat;
+    background-size: contain;
     background-color: var(--neutral-dark);
+    min-height: 100vh;
+    font-size: 16px;
 } 
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+}
 
 /* HEADER */
 
 .header {
-    padding: 50px;
-    margin-bottom: 40px;
+   display: flex;
+   justify-content: flex-start;
+   width: 100%;
+   padding: 25px 35px;
 }
 
 .header .logo {
-    width: auto;
-    height: auto;
-    max-width: 215px;
+    width: 50%;
+    max-width: 220px;
 }
 
 /* INFOS */
 
 
 .about {
-    display: grid;
-    grid-area: about;
-    grid-template-columns: 1fr 1fr;
-    margin-left: 45px;
-    max-width: var(--max-width-size);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-grow: 1;
+    padding: 1px 35px;
 }
+
+.about .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+}
+
+.about .image .img {
+    width: 100%;
+}
+
 
 .about .detail {
     display: flex;
     flex-direction: column;
-    width: 440px;
-    gap: 30px;
+    align-items: center;
+    text-align: center;
+    max-width: 600px;
 }
 
 
@@ -46,23 +69,31 @@ body {
     font-family: 'Poppins', sans-serif;
     color: #FFFF;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 2rem;
+    line-height: 1.5;
+    padding: 50px 0 20px;
 }
 
 .about .detail .text {
     color: #FFFF;
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    padding: 10px 0;
 }
 
 .about .btn-register {
+    width: 65%;
+    max-width: 200px;
     font-family: 'Open Sans', sans-serif;
     color: var(--neutral-dark);
     background-color: #FFFF;
-    padding: 13px 55px;
+    font-size: 1rem;
+    padding: 10px;
+    margin: 20px 0;
     border-radius: 25px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    display: inline-block;
 }
 
 .about .btn-register:hover {
@@ -77,15 +108,25 @@ body {
 
 footer .social {
     display: flex;
-    justify-content: flex-end;
-
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
 }
 
-footer .social a {
+footer .social .social-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
     color: #FFFF;
-    font-size: 25px;
     border: solid 1px #FFFF;
-    border-radius: 10px;    
+    border-radius: 50%;    
+    margin: 5px;
+}
+
+footer .social .social-box .social-icon {
+    font-size: 1.4rem;
 }
 
 footer .social a:hover {
